@@ -1,0 +1,99 @@
+함수란?
+복잡한 수식을 기호로 표현한 것
+
+상수란?
+한 번 정해지면 변하지 않는 수
+
+변수란?
+변하는 수를 의미
+
+심볼릭 상수란?
+복잡한 데이터를 문자로 선언하여 변수명으로 표현
+
+각 자료형의 상수표현 방법을 설명하시오.
+boolean 자료형 true , false
+int 소수점 없는 숫자
+long 10L
+float 3.14f
+double 3.14
+char  'a'
+string "ad"
+심볼릭  상수 제목 . 지정한 심볼럭상수
+
+
+우선순위를 이야기해 보자.
+상수들을 연산하면 순서대로 연산되는 것이 아니라 연산자 우선순위에 따라 계산이 된다.
+연산자 우선순위(Operator Precedence)는 수식에서 여러 개의 연산자가 사용될 때, 
+어떤 연산자가 먼저 수행되는지를 결정하는 규칙입니다. 연산자 우선순위에 따라 계산의 순서가 달라질 수 있다.
+
+
+“10”+10+10, 10+10+“10”, 10+10, “10+10”, “10”+ “10” 다음 각각의 실행결과를 생각해보자.
+"101010"      "2010"         "20"  "1010"  "1010"
+
+다음 요구사항에 맞는 Java 클래스를 작성하세요.
+
+MAX_STUDENTS라는 심볼릭 상수를 정의하고, 값을 30으로 설정합니다.
+SCHOOL_NAME이라는 심볼릭 상수를 정의하고, 값을 "우리학교"로 설정합니다.
+main 메소드에서 두 상수를 출력하세요.
+public class School {
+    // 여기에 심볼릭 상수를 정의하세요.
+    public static void main(String[] args) {
+        // 여기에 상수를 출력하는 코드를 작성하세요.
+    }
+}
+
+-------------------------------------
+package com.the.ex;
+
+public class School05 {
+	public static final int MAX_STUDENTS = 30;
+	public static final String SCHOOL_NAME = "우리학교";
+	
+	// 숫자는 인트 이고 
+	// 글자는 문자열 스트링
+	
+			
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	System.out.println(School05.MAX_STUDENTS);
+	System.out.println(School05.SCHOOL_NAME);
+
+	
+	}
+
+}
+
+------------------------------------------------
+
+다음 요구사항에 맞는 Java 클래스를 작성하세요.
+
+FAVORITE_COLOR라는 심볼릭 상수를 정의하고, 값을 "파란색"으로 설정합니다.
+FAVORITE_FOOD라는 심볼릭 상수를 정의하고, 값을 "피자"로 설정합니다.
+main 메소드에서 두 상수를 출력하세요.
+public class Favorites {
+    // 여기에 심볼릭 상수를 정의하세요.
+    public static void main(String[] args) {
+        // 여기에 상수를 출력하는 코드를 작성하세요.
+    }
+}
+
+
+package com.the.ex;
+
+public class School05 {
+	public static final String FAVORITE_COLOR = "파란색";
+	public static final String FAVORITE_FOOD = "피자";
+	
+	
+	
+			
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+	System.out.println(School05.FAVORITE_COLOR);
+	System.out.println(School05.FAVORITE_FOOD);
+
+	
+	}
+
+}
+

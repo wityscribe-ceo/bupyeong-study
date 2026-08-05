@@ -1,0 +1,58 @@
+
+
+연습 문제
+지역변수와 전역변수를 설명해보자.
+전역변수는 프로그램 모든곳에 사용할수 있는 변수
+클래스 안에 static을 붙여서 변수 선언
+
+지역변수는 메소드와 각종 중괄호 블럭 안에 선언된 변수
+중괄호{} 블럭 안에만 사용할수있음
+
+다음 코드가 잘못된 이유를 설명하시오.
+
+package com.human.ex;
+public class JavaStart10 {
+ 전역변수 	public static int a=22;
+	public static void main(String[] args) {
+	지역변수  	int a=10;
+		{			
+	선언할수없음 같은걸 int a=20;
+              	System.out.println(a);
+		}
+	}
+}
+
+다음 코드가 정상적인 코드 인지 아닌지 설명하고 정상적으로 고쳐보자.
+
+package com.human.ex;        
+public class JavaStart10 {
+	public static void main(String[] args) {
+					
+			int a=21;
+                  System.out.println(a);
+		
+	System.out.println(a);
+		
+		 a=22;
+            System.out.println(a);
+	}
+}
+
+
+다음 코드가 정상적인 코드 인지 아닌지 설명하고 정상적으로 고쳐보자.
+package com.human.ex;
+public class JavaStart10 {
+	public static int a=22;// 전역변수는 모든 지역에서 사용할 수 있다.
+	public static void main(String[] args) {
+		{			
+			int a=21;
+                  System.out.println(a);
+		}
+		System.out.println(a);
+		{
+			a=22;
+		System.out.println(a);
+		}
+            System.out.println(a);
+	}
+}

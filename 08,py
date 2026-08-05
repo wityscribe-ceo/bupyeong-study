@@ -1,0 +1,12 @@
+name="홍길동"
+age=50
+height=178.34122
+
+# new_string=f"이름은:{name} 나이:{age} 키{height}"
+# print(new_string)
+# new_string="f"이름:{} 나이:{} 키:{}",format(name,age,height)
+# print(new_string)
+
+new_string="이름:%s 나이:%d 키:%f 키:%.2f"%(name,age,height,height)
+print(new_string)
+
