@@ -1,0 +1,204 @@
+package com.the.ex;
+
+public class Class0806Ex4 {
+
+	public static void main(String[] args) {
+		
+//		//1.
+//		int i=0;
+//		switch (i) {
+//		case 0:
+//			i++;
+//			break;
+//		case 2:
+//			i=i-2;
+//			break;
+//		case 3:
+//			i=3;
+//			break;
+//		}
+//		System.out.println(i);
+//		
+//		
+//		int i=0;
+//		if (i==2) {
+//			i++;
+//		}else if (i==3) {
+//			System.out.println(" ");
+//		}else if (i==4) {
+//			i=i+2;
+//		}else if (i==6) {
+//			i++;
+//		}
+		
+	//	2.
+
+//		int c=1;		
+//		if (c == 1) {
+//		    System.out.println("일");
+//		} else if (c == 2) {
+//		    System.out.println("이");
+//		} else if (c == 3) {
+//		    System.out.println("삼");
+//		} else if (c == 4) {
+//		    System.out.println("사");
+//		} else if (c == 5) {
+//		    System.out.println("오");
+//		} else {
+//		    System.out.println("1부터 5사이의 숫자가 아니다.");
+//		}
+//		
+		
+//		int c=1;
+//		switch (c) {
+//		case 1:
+//			System.out.println("일");
+//			break;
+//		case 2:
+//			System.out.println("이");
+//			break;
+//		case 3:
+//			System.out.println("삼");
+//			break;
+//		case 4:
+//			System.out.println("사");
+//			break;
+//		case 5:
+//			System.out.println("오");
+//			break;
+//			default :
+//			System.out.println("1부터 5사이의 숫자가 아니다.");
+//		}
+
+		
+		//3.
+	//	int input = 0; // 
+//		int a = 5;
+//		int b = 7;
+//
+//		if (input == 0) {
+//		    a = a + 2;
+//		} else if (input == 1) {
+//		    b = b + 4;
+//		} else if (input == 2) {
+//		    a = a + b;
+//		} else {
+//		    b = b + 5;
+//		}
+//
+//		System.out.println("a=" + a + ", b=" + b);
+//		
+//		
+//		
+//		int input = 0; 
+//		int a = 5;
+//		int b = 7;
+//
+//		switch (input) {
+//		    case 0:
+//		        a = a + 2;
+//		        break;
+//		    case 1:
+//		        b = b + 4;
+//		        break;
+//		    case 2:
+//		        a = a + b;
+//		        break;
+//		    default:
+//		        b = b + 5;
+//		        break;
+//		}
+//
+//		System.out.println("a=" + a + ", b=" + b); 
+		
+		//4.
+//				int score = 0;
+//				
+//				  if (score >= 90) {
+//				    System.out.println("수");
+//				} else if (score >= 80) {
+//				    System.out.println("우");
+//				} else if (score >= 70) {
+//				    System.out.println("미");
+//				} else {
+//				    System.out.println("양 또는 가");
+//				}
+//				
+//				
+//				
+//				int score = 0;
+		//
+//				switch (score / 10) {
+//				    case 10: // 100점인 경우
+//				    case 9:  // 90점대인 경우
+//				        System.out.println("수");
+//				        break;
+//				    case 8:  // 80점대인 경우
+//				        System.out.println("우");
+//				        break;
+//				    case 7:  // 70점대인 경우
+//				        System.out.println("미");
+//				        break;
+//				    default:
+//				        System.out.println("양 or 가");
+//				        break;
+//				}
+//				
+		//5.
+//				int num =0;
+
+//				switch (num) {
+//				    case 1:
+//				        System.out.println("일");
+//				        break;
+//				    case 2:
+//				        System.out.println("이");
+//				        break;
+//				    case 3:
+//				        System.out.println("삼");
+//				        break;
+//				    case 4:
+//				        System.out.println("사");
+//				        break;
+//				    case 5:
+//				        System.out.println("오");
+//				        break;
+//				    default:
+//				        System.out.println("1에서 5 사이의 숫자가 아니다.");
+//				        break;
+//	                }
+
+			//6. 
+//				int month=0;
+//				switch (month) {
+//				case 1: case 3: case 5: case 7: case 8: case 10: case 12:
+//			        System.out.println(month + "월은 31일까지 있다.");
+//			        break;
+//			    case 4: case 6: case 9: case 11:
+//			        System.out.println(month + "월은 30일까지 있다.");
+//			        break;
+//			    case 2:
+//			        System.out.println(month + "월은 28일까지 있다."); 
+//			        break;
+//			    default:
+//			        System.out.println("올바른 달이 아니다.");
+//			        break;
+//			}
+		
+			//7.
+		
+//			int age= 0;
+//			if (age >= 8 && age <= 13) {
+//			    System.out.println("초등학교");
+//			} else if (age >= 14 && age <= 16) {
+//			    System.out.println("중학교");
+//			} else if (age >= 17 && age <= 19) {
+//			    System.out.println("고등학교");
+//			} else {
+//			    System.out.println("초.중.·고등학교 연령대가 아니다.");
+//			}
+			
+		
+		}	
+		
+	}
